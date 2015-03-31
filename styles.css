@@ -1,7 +1,6 @@
 body {
-	color: blue;
+	font-family: Roboto;
 }
-
 *{
   /* this will put a border around every element. It will be ugly, but useful to see how the framework is working */
   border: 1px solid orange !important;
@@ -17,6 +16,7 @@ body {
   width: 100%;
   display: flex;
   flex-wrap: wrap; 
+  float: left;
 }
 .col-1{
   width: 8.33%;
@@ -59,3 +59,18 @@ body {
   height: 300px;
   background-color: red;
 }
+h1, h3 {
+	text-indent: left;
+}
+h2 {
+	float: left;
+	clear: both;
+}
+.header{
+	text-align: right;
+	text-transform: uppercase;
+}
+.featured{
+	text-align: center;
+}
+
